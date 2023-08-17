@@ -1,0 +1,199 @@
+/* styles the boostrap jumbotron */
+.jumbotron { 
+
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    height: 500px; 
+   }
+   
+/* paralax start*/
+.parallax {
+    /* The image used */
+    background-image: url("solar.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallaxTwo {
+    /* The image used */
+    background-image: url("Solar\ engineer.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/*End of parallax styling */
+
+
+
+
+
+/* styles the testimonials*/
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .testimonial {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .rating {
+    color: gold;
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+  
+
+/*styles all the services provided by the company */
+.service {
+    background-color: #f7f7f7;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .service h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  .service-description {
+    margin-top: 10px;
+    color: #666;
+  }
+
+
+/* styles the form */
+input[type=email], 
+input[type=password], 
+input[type=text], 
+input[type=submit],
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid var(--gray-color);
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 10px 10px;
+    width: 100%;
+    font-weight: bold;
+}
+
+input[type="submit"] { 
+  cursor: pointer
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+.content{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+/* Modern styling for the navbar */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Change background color */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    z-index: 1000;
+  }
+  
+  /* Center the navigation links */
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-right: 20px; /* Add space on the right */
+  }
+  
+  /* Style for navigation links */
+  .nav-link {
+    color: #333;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for navigation links */
+  .nav-link:hover {
+    color: #f39c12; /* Change color on hover */
+    text-decoration: none;
+  }
+  
+  /* Hamburger icon styling */
+  .navbar-toggler-icon {
+    background-color: #333; /* Change icon color */
+  }
+  
+  /* Toggle button color on hover */
+  .navbar-toggler-icon:hover {
+    background-color: #f39c12; /* Change icon color on hover */
+  }
+  
+  /* Remove default padding from toggle button */
+  .navbar-toggler {
+    padding: 0;
+    border: none;
+  }
+  
+  /* Add padding to the brand */
+  .navbar-brand {
+    padding: 10px 20px;
+  }
+  
+  /* Make the brand text bold */
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  /* Modern button styling */
+  .btn-primary {
+    background-color: #f39c12; /* Change button color */
+    border-color: #f39c12; /* Change button border color */
+  }
+  
+  /* Button color on hover */
+  .btn-primary:hover {
+    background-color: #e67e22; /* Change button color on hover */
+    border-color: #e67e22; /* Change button border color on hover */
+  }
